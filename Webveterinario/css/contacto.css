@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Send+Flowers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.logo-cabeza{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    padding: 3px;
+    height: 22px;
+}
+.logo-cabeza:last-child{
+    color: white;
+}
+.superior a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 10px 10px 5px 10px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    height: 20px;
+}
+.superior a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 119, 119);
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.superior a:last-child:hover{
+    background-color: rgba(25, 119, 119, 0.646);  
+    cursor: pointer;
+}
+.cabecera{
+    width: 100%;
+    height: 80px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-empresa{
+      width: 60px;
+      height:60px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: center;
+}
+.slogan{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(25, 119, 119);
+    font-weight: bold;
+    padding-top: 25px;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.menu a:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sc1{
+    width: 45%;
+    height: 60vh;
+    overflow: hidden;
+}
+.sc2{
+    width: 45%;
+    height: 62vh;
+}
+.sc1{
+    box-shadow: 2px 2px 4px 4px rgb(189, 189, 189);
+}
+.container {
+    background-color: #fff;
+    padding-left: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "Borel", serif;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+.contact-form label {
+    font-size: 14px;
+     font-family: "Borel", serif;
+    font-weight: lighter;
+    color: #555;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+.contact-form button {
+    background-color: rgb(25, 119, 119);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+.contact-form button:hover {
+    background-color:rgb(91, 189, 189);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: rgb(25, 119, 119);
+    outline: none;
+}
+.piepagina{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 , .sec2 , .sec3{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 h3 , .sec2 h3, .sec3 h3{
+    color: black;
+    padding-bottom: 20px;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec1 a , .sec2 a , .sec3 a{
+    color: black;
+    font-family: "Borel", serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+}
+.sec2 p{
+    padding-top: 20px;
+    color: rgb(25, 119, 119);
+    font-family: "Borel", serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-align: center;
+}

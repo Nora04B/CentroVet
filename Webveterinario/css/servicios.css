@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Send+Flowers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.logo-cabeza{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    padding: 3px;
+    height: 22px;
+}
+.logo-cabeza:last-child{
+    color: white;
+}
+.superior a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 10px 10px 5px 10px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    height: 20px;
+}
+.superior a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 119, 119);
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.superior a:last-child:hover{
+    background-color: rgba(25, 119, 119, 0.646);  
+    cursor: pointer;
+}
+.cabecera{
+    width: 100%;
+    height: 80px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-empresa{
+      width: 60px;
+      height:60px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: center;
+}
+.slogan{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(25, 119, 119);
+    font-weight: bold;
+    padding-top: 25px;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.menu a:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.banner{
+    background-image: url(/imagenes/header.png);
+    background-position: -1rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ubi{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 15px;
+}
+.direccion{
+    width: 70%;
+    height: 25vh;
+    text-align: center;
+}
+.direccion h2{
+    color: rgb(25, 119, 119);
+    text-transform: uppercase;
+    font-family: "Borel", serif;
+    font-size: 2.2rem;
+    padding: 3.2px;
+    font-weight: lighter;
+}
+.direccion h3, h4{
+    color: #000000;
+    font-family: "Borel", serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+.direccion a{
+    height: 100px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #000000;
+    transition: 0.5s;
+}
+.direccion a:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem ;
+}
+.citas{
+    width: 100%;
+    height: 5vh;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.citas h3{
+    width: 15%;
+    height: 4vh;
+    background-color: rgba(25, 119, 119, 0.737);  
+    padding-top: 12px;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.citas h3:hover{
+    background-color: rgb(25, 119, 119);  
+    cursor: pointer;
+}
+.central{
+    width: 100%;
+    height: 20vh;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.central1 h3{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:  rgb(25, 119, 119);
+}
+.central1 p{
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.central1 hr{
+    width: 20%;
+    margin-left: 40%;
+    color: rgb(25, 119, 119);
+}
+.segundo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.central2 h3{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:  rgb(25, 119, 119);
+}
+.central2 p{
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.central2 hr{
+    width: 20%;
+    margin-left: 40%;
+    color: rgb(25, 119, 119);
+}
+.registro {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-register {
+    width: 400px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    text-align: center;
+}
+.form-register hr{
+    width: 35%;
+    margin-left: 35%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    color: rgb(25, 119, 119);
+}
+.form-register h4 {
+    color: rgb(25, 119, 119);
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.controls {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px white;
+    margin-bottom: 16px;
+    font-family: "Borel", serif;
+    font-size: 12px;
+    color: rgb(25, 119, 119) 
+} 
+.form-register p {
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+}
+.form-register a {
+    color: black;
+    text-decoration: none;
+} 
+.form-register a:hover {
+    color: rgb(171, 169, 169);
+    text-decoration: underline;
+}
+.form-register .botons {
+    width: 28%;
+    background: rgb(25, 119, 119) ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-family: "Borel", serif;
+    font-size: 0.9rem;
+    font-weight: lighter;  
+    border-radius: 20px;
+    outline: none;
+    border:  rgb(25, 119, 119) ;
+}
+.container-carousel {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+    left: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.carruseles {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+
+}
+
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
+}
+
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left, .btn-right {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .5s ease;
+    user-select: none;
+}
+.btn-left:hover, .btn-right:hover {
+    background-color: #333333d4;
+    color: #000000;
+}
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+.piepagina{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 , .sec2 , .sec3{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 h3 , .sec2 h3, .sec3 h3{
+    color: black;
+    padding-bottom: 20px;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec1 a , .sec2 a , .sec3 a{
+    color: black;
+    font-family: "Borel", serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+}
+.sec2 p{
+    padding-top: 20px;
+    color: rgb(25, 119, 119);
+    font-family: "Borel", serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-align: center;
+}

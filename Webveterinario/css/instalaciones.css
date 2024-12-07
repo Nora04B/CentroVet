@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Send+Flowers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+ul {font-family: "Borel", serif;
+}
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.logo-cabeza{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    padding: 3px;
+    height: 22px;
+}
+.logo-cabeza:last-child{
+    color: white;
+}
+.superior a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 10px 10px 5px 10px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    height: 20px;
+}
+.superior a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 119, 119);
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.superior a:last-child:hover{
+    background-color: rgba(25, 119, 119, 0.646);  
+    cursor: pointer;
+}
+.cabecera{
+    width: 100%;
+    height: 80px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-empresa{
+      width: 60px;
+      height:60px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: center;
+}
+.slogan{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(25, 119, 119);
+    font-weight: bold;
+    padding-top: 25px;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.menu a:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.descripcion{
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+.descripcion h1, h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 25px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    height: 20px;
+}
+.descripcion p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    padding: 10px;
+}
+.descripcion strong {
+    font-family: "Borel", serif;
+}
+.piepagina{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sec1 , .sec2 , .sec3{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 h3 , .sec2 h3, .sec3 h3{
+    color: black;
+    padding-bottom: 20px;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec1 a , .sec2 a , .sec3 a{
+    color: black;
+    font-family: "Borel", serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+}
+.sec2 p{
+    padding-top: 20px;
+    color: rgb(25, 119, 119);
+    font-family: "Borel", serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-align: center;
+}

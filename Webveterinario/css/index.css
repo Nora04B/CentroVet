@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: #3197df;
+    
+}
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed; /*lo fijamos para que forme parte del background*/
+    filter: brightness(60%);
+}
+.header {
+    height: 100vh;/* se pone este valor para que ocupe toda la página y asi pueda centrarse en el eje vertical con 'align-items'
+    en el supuesto caso que no se pusiera, el div solo ocuparia el espacio predefinido*/
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    padding: 2%;
+    color: #ffffff9e;
+    font-size: 10vw;
+    font-family: 'Poiret One', cursive;
+}
+.header h4{
+    color: #ffffff8a;
+    font-size: 1vw;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 0.4vw;
+
+}
+.header a {
+    padding: 2%;
+    color: #ffffff8a;
+    font-size: 3.2vh;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    display: flex;
+    transition: 0.4s cubic-bezier(0.0, 0.0, 1.0, 1.0);
+}
+.header a:hover{
+    cursor: pointer;
+    font-size: 3.5vh;
+    color: plum;
+}

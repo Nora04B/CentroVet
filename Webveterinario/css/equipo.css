@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Send+Flowers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.logo-cabeza{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    padding: 3px;
+    height: 22px;
+}
+.logo-cabeza:last-child{
+    color: white;
+}
+.superior a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 10px 10px 5px 10px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    height: 20px;
+}
+.superior a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 119, 119);
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.superior a:last-child:hover{
+    background-color: rgba(25, 119, 119, 0.646);  
+    cursor: pointer;
+}
+.cabecera{
+    width: 100%;
+    height: 80px;
+    font-family: "Borel", serif;
+    font-style: normal;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-empresa{
+      width: 60px;
+      height:60px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: center;
+}
+.slogan{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(25, 119, 119);
+    font-weight: bold;
+    padding-top: 25px;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 10rem;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.menu a:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.st1 {
+    padding-top: 20px;
+    text-align: center;
+}
+.st1 h1 {
+    font-size: 1.8em;
+    font-weight: lighter;
+    font-family: "Borel", serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.st1 h3 {
+    font-size: 1.1em;
+    font-weight: lighter;
+    font-family: "Borel", serif;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.st1 p {
+    font-size: 0.9em;
+    font-weight: lighter;
+    font-family: "Borel", serif;
+    color: #000000;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 20px;
+}
+.team-member {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+.team-member img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.team-member h3 {
+    color: rgb(25, 119, 119);
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.team-member p {
+    color: #000000;
+    font-size: 1em;
+    margin: 0;
+}
+.piepagina{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 , .sec2 , .sec3{
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 h3 , .sec2 h3, .sec3 h3{
+    color: black;
+    padding-bottom: 20px;
+    font-family: "Borel", serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec1 a , .sec2 a , .sec3 a{
+    color: black;
+    font-family: "Borel", serif;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+}
+.sec2 p{
+    padding-top: 20px;
+    color: rgb(25, 119, 119);
+    font-family: "Borel", serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-align: center;
+}
